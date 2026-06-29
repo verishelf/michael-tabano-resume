@@ -1,6 +1,6 @@
-# Michael Tabano — Professional Resume
+# Michael Tabano — Professional Portfolio
 
-A monochrome, single-page professional resume site built with Next.js, TypeScript, and Tailwind CSS.
+A monochrome portfolio site for Michael Tabano, built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Development
 

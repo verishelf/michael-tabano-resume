@@ -1,21 +1,25 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
-});
-
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
-  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Michael Tabano | Professional Resume",
+  title: "Michael Tabano | Warehouse, Customer Service & Security",
   description:
-    "Professional resume for Michael Tabano — warehouse, logistics, customer service, and security experience in Imperial Beach, CA.",
+    "Reliable warehouse, logistics, customer service, and security professional based in Imperial Beach, California.",
+  openGraph: {
+    title: "Michael Tabano | Warehouse, Customer Service & Security",
+    description:
+      "Reliable warehouse, logistics, customer service, and security professional.",
+    siteName: "Michael Tabano",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -24,8 +28,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable} h-full`}>
-      <body className="min-h-full font-sans antialiased">{children}</body>
+    <html lang="en" className={`${inter.variable} h-full antialiased`}>
+      <body className="min-h-full flex flex-col bg-white text-neutral-900">
+        {children}
+      </body>
     </html>
   );
 }
