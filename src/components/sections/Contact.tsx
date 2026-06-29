@@ -28,7 +28,7 @@ export default function Contact() {
           <SectionHeading
             label="Contact"
             title="Let's connect"
-            description="Open to warehouse, logistics, customer service, and security opportunities."
+            description="Open to warehouse operations, logistics, customer service, hospitality, retail, and security opportunities."
           />
         </FadeIn>
 

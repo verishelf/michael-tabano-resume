@@ -9,13 +9,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Michael Tabano | Warehouse, Customer Service & Security",
+  title: "Michael Tabano | Warehouse & Logistics | Customer Service | Event Security",
   description:
-    "Reliable warehouse, logistics, customer service, and security professional based in Imperial Beach, California.",
+    "Operations-focused professional with 10+ years of experience across warehouse logistics, hospitality, retail, and event security.",
   openGraph: {
-    title: "Michael Tabano | Warehouse, Customer Service & Security",
+    title: "Michael Tabano | Warehouse & Logistics | Customer Service | Event Security",
     description:
-      "Reliable warehouse, logistics, customer service, and security professional.",
+      "Operations-focused professional with 10+ years of experience across warehouse logistics, hospitality, retail, and event security.",
     siteName: "Michael Tabano",
     locale: "en_US",
     type: "website",

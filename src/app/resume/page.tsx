@@ -2,8 +2,10 @@ import Link from "next/link";
 import {
   personalInfo,
   aboutSummary,
+  competencies,
   experience,
   skills,
+  additionalQualifications,
   resumePdfFilename,
   resumePdfPath,
 } from "@/lib/resume-data";
@@ -56,6 +58,20 @@ export default function ResumePage() {
 
         <section className="mt-8">
           <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500">
+            Core Competencies
+          </h2>
+          <ul className="mt-3 grid gap-1.5 text-sm text-neutral-700 sm:grid-cols-2">
+            {competencies.map((item) => (
+              <li key={item} className="flex gap-2">
+                <span className="text-neutral-400">•</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="mt-8">
+          <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500">
             Professional Experience
           </h2>
           {experience.map((job) => (
@@ -82,6 +98,20 @@ export default function ResumePage() {
           </h2>
           <ul className="mt-3 grid gap-1.5 text-sm text-neutral-700 sm:grid-cols-2">
             {skills.map((item) => (
+              <li key={item} className="flex gap-2">
+                <span className="text-neutral-400">•</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="mt-8">
+          <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500">
+            Additional Qualifications
+          </h2>
+          <ul className="mt-3 space-y-1.5 text-sm text-neutral-700">
+            {additionalQualifications.map((item) => (
               <li key={item} className="flex gap-2">
                 <span className="text-neutral-400">•</span>
                 <span>{item}</span>

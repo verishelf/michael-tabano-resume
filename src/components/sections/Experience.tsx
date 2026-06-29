@@ -13,7 +13,7 @@ export default function Experience() {
           <SectionHeading
             label="Experience"
             title="Professional experience"
-            description="Delivering consistent, dependable service across warehouse, hospitality, retail, and security roles."
+            description="Delivering dependable, high-quality performance across warehouse, hospitality, retail, and security environments."
           />
         </FadeIn>
 

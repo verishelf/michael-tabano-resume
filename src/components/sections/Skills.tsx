@@ -11,7 +11,7 @@ export default function Skills() {
           <SectionHeading
             label="Skills"
             title="Core capabilities"
-            description="Operational and interpersonal skills honed through hands-on work in demanding environments."
+            description="Operational and interpersonal skills honed through hands-on work in fast-paced, high-demand environments."
           />
         </FadeIn>
         <FadeIn delay={0.1}>

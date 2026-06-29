@@ -9,7 +9,7 @@ export default function About() {
         <FadeIn>
           <SectionHeading
             label="About"
-            title="A professional built for reliability, precision, and teamwork."
+            title="A professional built for consistency, precision, and dependability."
           />
         </FadeIn>
         <FadeIn delay={0.1}>
