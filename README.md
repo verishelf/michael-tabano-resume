@@ -9,6 +9,8 @@ npm install
 npm run dev
 ```
 
+The downloadable PDF is auto-generated from the same content as `/resume` via `npm run generate-resume`.
+
 Open [http://localhost:3000](http://localhost:3000) to view the site.
 
 ## Build
